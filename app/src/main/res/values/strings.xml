@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Fruitify</string>
+    <string name="introapp">"Lets find the<font color='#008000'> best &amp; healthy</font> Fruits"</string>
+    <string name="btn">Get Started</string>
+    <string name="intrologin">Already have an account? <font color='#008000'>Login In</font></string>
+    <string name="introdes">welcome to our world of Wholesome delights &amp; explore nature goodness with our vibrant selection of healthy and delicious   </string>
+    <string name="login_in">Login in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login_page">Login Page</string>
+    <string name="sign_up_page">Sign-Up Page</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="phone_no">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="sign_here">If you don\'t have an account? <font color='#008000'>Sign Up</font></string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="search_friuts_and_vege">Search Friuts and vege</string>
+    <string name="best_deal">Best Deal</string>
+    <string name="see_all">see all</string>
+    <string name="shop_now">Shop Now</string>
+    <string name="vegetable">Vegetable</string>
+    <string name="fruits">Fruits</string>
+    <string name="enjoy_our_big_offer_n_every_day">enjoy our big offer \n every day</string>
+    <string name="fresh_and_healthy">Fresh and Healthy</string>
+
+
+</resources>
