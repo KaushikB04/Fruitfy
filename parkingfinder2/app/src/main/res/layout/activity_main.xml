@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#818080"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_600sdp"
+        android:background="#E7F0F4"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <ImageView
+            android:layout_width="@dimen/_265sdp"
+            android:layout_height="@dimen/_327sdp"
+            android:paddingStart="@dimen/_40sdp"
+            android:src="@drawable/auto_yellow" />
+
+        <Button
+            android:id="@+id/signupbtn"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:backgroundTint="#E1DE2C"
+            android:fontFamily="@font/rox"
+            android:text="signup"
+            android:textColor="#000"
+            android:textSize="@dimen/_17ssp" />
+
+        <Button
+            android:id="@+id/loginbtn"
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginLeft="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:backgroundTint="#E1DE2C"
+            android:fontFamily="@font/rox"
+            android:text="login"
+            android:textColor="#000"
+            android:textSize="@dimen/_17ssp" />
+
+        <ImageView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_marginTop="@dimen/_105sdp"
+            android:src="@drawable/car1"
+            android:layout_marginRight="@dimen/_60sdp"/>
+
+    </LinearLayout>
+</LinearLayout>

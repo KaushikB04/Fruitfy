@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1033560567402",
+    "project_id": "rynoxapp-b762b",
+    "storage_bucket": "rynoxapp-b762b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033560567402:android:c6de8c2aeef1a50ccae413",
+        "android_client_info": {
+          "package_name": "com.example.rynoxapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-8yZHK3nCvwjCFreRqJdmfSjYEt65YA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

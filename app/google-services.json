@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "150958220747",
+    "project_id": "fruitify-5b606",
+    "storage_bucket": "fruitify-5b606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150958220747:android:648b726c1d60b03525424e",
+        "android_client_info": {
+          "package_name": "com.example.fruitify_offcial"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH0jsLoAT_tkvTwL5eCfBXoxI1NOz246Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

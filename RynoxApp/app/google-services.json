@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "823333135847",
+    "project_id": "rynoxapp",
+    "storage_bucket": "rynoxapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823333135847:android:afe1fb86b003ac9fd08942",
+        "android_client_info": {
+          "package_name": "com.example.rynoxapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbOHSGoRs9BY5xlPTBbXfsmm6elgw4Ot8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

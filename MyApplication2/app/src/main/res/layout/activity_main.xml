@@ -1,0 +1,52 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".product"
+    android:orientation="vertical">
+    <AutoCompleteTextView
+        android:id="@+id/autoSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="4dp"
+        android:completionHint="Search for Product"
+        android:completionThreshold="1"
+        android:hint="Search for Product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/voice"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:onClick="btnRecordPressed"
+        android:drawableStart="@drawable/mic_vector"
+        app:layout_constraintStart_toEndOf="@+id/autoSearch"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:drawableStart="@drawable/camera_vector"
+        app:layout_constraintStart_toEndOf="@+id/voice"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:numColumns="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:horizontalSpacing="4dp"
+        android:verticalSpacing="4dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

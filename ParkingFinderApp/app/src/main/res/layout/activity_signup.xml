@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+     android:background="@drawable/bg2"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".signup">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_gravity="center"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="@dimen/_80sdp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter User Name"
+        android:textSize="@dimen/_12ssp"
+        android:textColor="#1C1B1B"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginLeft="@dimen/_30sdp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:hint="User Name"
+        android:background="@drawable/border"
+        android:paddingLeft="@dimen/_10sdp"
+        android:drawableLeft="@drawable/duotone_icon"
+        android:drawablePadding="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Password"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#1C1B1B"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:hint="Password"
+            android:background="@drawable/border"
+            android:paddingLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/_72910_linecon_lock_pass_password_round_icon"
+            android:drawablePadding="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Password"
+            android:textSize="@dimen/_12ssp"
+            android:textColor="#1C1B1B"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_30sdp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:hint="Password"
+            android:background="@drawable/border"
+            android:paddingLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/_72910_linecon_lock_pass_password_round_icon"
+            android:drawablePadding="@dimen/_5sdp"
+            android:layout_marginHorizontal="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:textColor="#1C1B1B"
+        android:layout_marginLeft="@dimen/_30sdp"
+        />
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:backgroundTint="#EEE22A"
+        android:textColor="#111"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:textSize="@dimen/_16ssp"
+        android:text="SIGNUP"
+            />
+
+
+</LinearLayout>

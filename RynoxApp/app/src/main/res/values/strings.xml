@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RynoxApp</string>
+    <string name="category">category</string>
+    <string name="product">Product</string>
+    <string name="see_all">See all</string>
+    <string name="explore">Explorer</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="cart">Cart</string>
+    <string name="user">Profile</string>
+    <string name="gloves">Gloves</string>
+    <string name="title">title</string>
+    <string name="avatar">Avatar</string>
+    <string name="_0_rat">0 rat</string>
+    <string name="size">Size</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_anything">Search anything</string>
+    <string name="_0">0</string>
+    <string name="my_cart">My Cart</string>
+    <string name="enter_your_coupon_code">Enter Your Coupon Code</string>
+    <string name="apply">Apply</string>
+    <string name="check_out">Check Out</string>
+
+</resources>
